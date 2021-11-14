@@ -1,0 +1,265 @@
+
+
+
+/*****************PAGE*****************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flexed {
+    display: flex;
+    gap: 1.5em;
+}
+
+.text_margin{
+    margin: .5em 0em;
+}
+
+/**************PAGE HEADER*******************/
+
+.header{
+    background-color: black;
+    min-height: 4em;
+    min-width: 60em;
+    align-items:center;
+}
+
+.navElements{
+    min-width: 48em;
+    margin: 0em auto;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.navLeft{
+    width: 25em;
+    color: whitesmoke;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.navLeft a{
+    color: whitesmoke;
+}
+
+.navRight button{
+    color: whitesmoke;
+    background-color:darkcyan;
+    width: 6em;
+    height: 2em;
+}
+
+
+
+/***************BODY********************/
+
+.body{
+    width: 48em;
+    margin: 1.5em auto;
+    justify-content: space-between;
+}
+
+
+
+
+/***************MAIN*********************/
+
+.main{
+    flex: 2;
+}
+
+
+
+
+/***************PROFILE****************/
+
+.profile{
+    min-height: 21em;
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: .125em;
+    margin-bottom: 1.5em;
+}
+
+.profileHeader{
+    background-color: darkcyan;
+    height: 6em;
+    padding: 0em 1.5em;
+}
+
+.profilePhoto{
+    width: 5.5em;
+    margin: .2em;
+    position: relative;
+    top: 2.9em;
+}
+
+.profileInfo{
+    padding: 2em 1.5em;
+}
+
+.profileInfo img{
+    width: .65em;
+}
+
+.profileInfo a{
+    color: #2b78e4;
+}
+
+
+
+/************Education***************/
+
+
+.education{
+    border-color: darkgray;
+    border-style: solid;
+    border-width: .125em;
+    min-height: 12em;
+}
+
+.educationHeader{
+    background-color: black;
+    color: whitesmoke;
+    padding: 0em 1.5em;
+    height: 3em;
+    align-items: center;
+}
+
+.educationInfoMain{
+    padding: .5em 1.5em;
+}
+
+.educationInfo1 h5{
+    color: darkgray;
+}
+
+/**************SIDE********************/
+
+.side{
+    flex: 1;
+}
+
+.sideProfilePhotos{
+    width: 2em;
+    margin-right: .5em;
+    position: relative;
+    top: .75em;
+}
+
+
+
+/***********ConnectionRequests**********/
+
+.connectReq{
+    min-height: 12em;
+    border-color: darkgray;
+    border-style: solid;
+    border-width: .125em;
+    margin-bottom: 1.5em;
+}
+
+.connectHeader{
+    background-color: black;
+    height: 3.5em;
+    align-items:center;
+    justify-content: center;
+}
+
+.connectHeader h3{
+    color: whitesmoke;
+}
+
+.connectHeader button{
+    height: 2em;
+    width: 2em;
+    border-radius: 5em;
+    border-style: solid;
+    padding: .25em;
+}
+
+.connectInfo{
+    flex-flow: column;
+    padding: 0em 1em;
+}
+
+.connectInfo button{
+    min-width: 2em;
+    background-color:transparent;
+    border-style: none;
+}
+
+.firstRequest{
+    align-items: center;
+    justify-content:space-between;
+}
+
+.secondRequest{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acceptCirc{
+    width: 2em;
+    position: relative;
+    top: .85em;
+}
+
+.closeCirc{
+    width: 2em;
+    position: relative;
+    top: .85em;
+}
+
+
+/**********YourConnections**************/
+
+.yourConnect{
+    min-height: 18em;
+    border-color: darkgray;
+    border-style: solid;
+    border-width: .125em;
+    margin-bottom: 1.5em;
+}
+
+.yourConnectHeader{
+    background-color: black;
+    height: 3.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.yourConnectHeader h3{
+    color: whitesmoke;
+}
+
+.yourConnectHeader button{
+    height: 2em;
+    min-width: 2em;
+    border-radius: 5em;
+    border-style: solid;
+    padding: .25em;
+}
+
+.connections{
+    flex-flow: column;
+    padding: 0em 1em;
+    margin-bottom: 1em;
+}
+
+
+/*********VIEW MORE***************/
+
+.moreConnections{
+    border-color: darkgray;
+    border-top-style: solid;
+    border-width: .125em;
+    padding: .75em 1em;
+}
+
+.moreConnections a{
+    color: #2b78e4;
+}
