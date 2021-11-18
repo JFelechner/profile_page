@@ -32,13 +32,13 @@
                     <img class="profilePhoto" src="user-circle.png" alt="stock profile image">
                 </div>
                 <div class="profileInfo">
-                    <h1 class="text_margin">Jane Doe</h1>
+                    <h1 class="userName text_margin">Jane Doe</h1>
                     <h3 class="text_margin"><img src="map-marker.png" alt="Map Marker"> Seattle</h3>
                     <p class="text_margin">
                         Developer | Engineer | Problem Solver <br>
                         Master of shadows and the Internet!
                     </p>
-                    <a class="text_margin" href=""><img src="gear.png" alt="cog"> edit profile</a>
+                    <a class="text_margin" onclick="changeText('userName')" href="#"><img src="gear.png" alt="cog"> edit profile</a>
                 </div>
             </div>
             <div class="education">
@@ -51,7 +51,7 @@
                         <h5>Dec 2019 - Mar 2020</h5>
                     </div>
                     <div class="educationInfo2 text_margin">
-                        <h4>Tripple black belt in Pyton, MERN, and C#</h4>
+                        <h4>Triple black belt in Pyton, MERN, and C#</h4>
                     </div>
                 </div>
             </div>
@@ -69,9 +69,11 @@
                             </h3>
                         </div>
                         <div class="firstRequestRight">
-                            <button> <img class="acceptCirc" src="accept-circle.png" alt="">
+                            <button onclick="hideRequest('firstRequest')"><img class="acceptCirc"
+                                    src="accept-circle.png" alt="">
                             </button>
-                            <button> <img class="closeCirc" src="close-circle.png" alt="">
+                            <button onclick="hideRequest('firstRequest')"> <img class="closeCirc" src="close-circle.png"
+                                    alt="">
                             </button>
                         </div>
                     </div>
@@ -82,10 +84,10 @@
                             </h3>
                         </div>
                         <div class="secondRequestRight">
-                            <button>
+                            <button onclick="hideRequest('secondRequest')">
                                 <img class="acceptCirc" src="accept-circle.png" alt="">
                             </button>
-                            <button>
+                            <button onclick="hideRequest('secondRequest')">
                                 <img class="closeCirc" src="close-circle.png" alt="">
                             </button>
                         </div>
@@ -112,10 +114,11 @@
                 </div>
                 <div class="moreConnections">
                     <h4><a href="">View More</a></h4>
-            </div>
+                </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

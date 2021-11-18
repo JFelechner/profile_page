@@ -9,6 +9,8 @@
     box-sizing: border-box;
 }
 
+/****************Utility Class***********/
+
 .flexed {
     display: flex;
     gap: 1.5em;
@@ -23,8 +25,6 @@
 .header{
     background-color: black;
     min-height: 4em;
-    min-width: 60em;
-    align-items:center;
 }
 
 .navElements{
@@ -59,7 +59,6 @@
 .body{
     width: 48em;
     margin: 1.5em auto;
-    justify-content: space-between;
 }
 
 
